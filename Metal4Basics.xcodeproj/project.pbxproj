@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80D34E092DFE29C900227DE1 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D34E082DFE29C800227DE1 /* Scene.swift */; };
 		832764B62E0363B600AD2AA7 /* Beach.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 832764B52E0363B600AD2AA7 /* Beach.hdr */; };
+		A6912EE992484C78A60DABA2 /* grasslands_sunset_2k.hdr in Resources */ = {isa = PBXBuildFile; fileRef = 6852C5DAFD2A4F089162D37F /* grasslands_sunset_2k.hdr */; };
 		838A22352DF9FB5700889E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838A221B2DF9FB5700889E98 /* Assets.xcassets */; };
 		838A22372DF9FB5700889E98 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838A221D2DF9FB5700889E98 /* App.swift */; };
 		838A22382DF9FB5700889E98 /* Metal4Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838A221E2DF9FB5700889E98 /* Metal4Renderer.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		80D34E082DFE29C800227DE1 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		832764B52E0363B600AD2AA7 /* Beach.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beach.hdr; sourceTree = "<group>"; };
+		6852C5DAFD2A4F089162D37F /* grasslands_sunset_2k.hdr */ = {isa = PBXFileReference; lastKnownFileType = file; path = grasslands_sunset_2k.hdr; sourceTree = "<group>"; };
 		838A21952DF8EA2F00889E98 /* Metal4Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal4Basics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838A221B2DF9FB5700889E98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		838A221D2DF9FB5700889E98 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				832764B52E0363B600AD2AA7 /* Beach.hdr */,
+				6852C5DAFD2A4F089162D37F /* grasslands_sunset_2k.hdr */,
 			);
 			path = Environments;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				832764B62E0363B600AD2AA7 /* Beach.hdr in Resources */,
+					A6912EE992484C78A60DABA2 /* grasslands_sunset_2k.hdr in Resources */,
 				838A22352DF9FB5700889E98 /* Assets.xcassets in Resources */,
 				8391D55F2E009467008803A2 /* Island.usdz in Resources */,
 			);

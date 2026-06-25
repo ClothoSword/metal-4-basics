@@ -127,7 +127,7 @@ class Metal4Renderer : NSObject, MetalViewDelegate {
         let assetURL = Bundle.main.url(forResource: "Island", withExtension: "usdz")!
         let scene = try Scene.load(url: assetURL, device: device)
         
-        let environmentURL = Bundle.main.url(forResource: "Beach", withExtension: "hdr")!
+        let environmentURL = Bundle.main.url(forResource: "grasslands_sunset_2k", withExtension: "hdr")!
         scene.lightingEnvironment = try await ImageBasedLight.generateImageBasedLight(url: environmentURL)
         scene.lightingEnvironment?.intensity = 3.0
 
