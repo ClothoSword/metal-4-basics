@@ -21,14 +21,7 @@ struct ContentView: View {
         guard let metalDevice = MTLCreateSystemDefaultDevice() else {
             fatalError("This sample requires a device that supports Metal")
         }
-
-        if #available(macOS 26.0, iOS 26.0, visionOS 26.0, *), metalDevice.supportsFamily(.metal3) {
-            print("Selected Metal 4 renderer")
-            return Metal4Renderer(device: metalDevice)
-        } else {
-            print("Runtime environment not new enough or Metal 4 not supported; falling back to Metal 2 renderer...")
-            return Metal2Renderer(device: metalDevice)
-        }
+        return Metal4Renderer(device: metalDevice)
     }()
 
     var body: some View {

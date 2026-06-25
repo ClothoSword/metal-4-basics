@@ -23,7 +23,6 @@
 		83BB6EAB2DFA063300A1340F /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB6EAA2DFA063000A1340F /* Mesh.swift */; };
 		83BB6EB02DFA0B1700A1340F /* ModelIO+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB6EAF2DFA0B1700A1340F /* ModelIO+Extensions.swift */; };
 		83BB6EB22DFA315000A1340F /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB6EB12DFA314F00A1340F /* Entity.swift */; };
-		83CFDE232E06173A002BF037 /* Metal2Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CFDE222E06173A002BF037 /* Metal2Renderer.swift */; };
 		83F805132DFC995600DB526F /* ImageBasedLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F805122DFC995200DB526F /* ImageBasedLight.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		83BB6EAA2DFA063000A1340F /* Mesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
 		83BB6EAF2DFA0B1700A1340F /* ModelIO+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelIO+Extensions.swift"; sourceTree = "<group>"; };
 		83BB6EB12DFA314F00A1340F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		83CFDE222E06173A002BF037 /* Metal2Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal2Renderer.swift; sourceTree = "<group>"; };
 		83F805122DFC995200DB526F /* ImageBasedLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasedLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 				83BB6EB12DFA314F00A1340F /* Entity.swift */,
 				83F805122DFC995200DB526F /* ImageBasedLight.swift */,
 				838B5BCF2DFD0AF000D098CA /* Material.swift */,
-				83CFDE222E06173A002BF037 /* Metal2Renderer.swift */,
 				838A221E2DF9FB5700889E98 /* Metal4Renderer.swift */,
 				83BB6EAA2DFA063000A1340F /* Mesh.swift */,
 				80D34E082DFE29C800227DE1 /* Scene.swift */,
@@ -252,7 +249,6 @@
 				838A22392DF9FB5700889E98 /* MetalView.swift in Sources */,
 				838B5BD02DFD0AF100D098CA /* Material.swift in Sources */,
 				83F805132DFC995600DB526F /* ImageBasedLight.swift in Sources */,
-				83CFDE232E06173A002BF037 /* Metal2Renderer.swift in Sources */,
 				838B5BD42DFD0F3300D098CA /* Camera.swift in Sources */,
 				838A223A2DF9FB5700889E98 /* PBR.metal in Sources */,
 				838B5BD22DFD0B1100D098CA /* Math.swift in Sources */,

@@ -19,7 +19,6 @@ import Metal
 import MetalKit
 import Spatial
 
-@available(macOS 26.0, iOS 26.0, visionOS 26.0, *)
 extension MTL4LibraryFunctionDescriptor {
     convenience init(name: String, library: MTLLibrary) {
         self.init()
@@ -28,7 +27,6 @@ extension MTL4LibraryFunctionDescriptor {
     }
 }
 
-@available(macOS 26.0, iOS 26.0, visionOS 26.0, *)
 extension MTL4SpecializedFunctionDescriptor {
     convenience init(name: String, library: MTLLibrary, functionConstants: MTLFunctionConstantValues? = nil) {
         self.init()
@@ -37,7 +35,6 @@ extension MTL4SpecializedFunctionDescriptor {
     }
 }
 
-@available(macOS 26.0, iOS 26.0, visionOS 26.0, *)
 class Metal4Renderer : NSObject, MetalViewDelegate {
     var scene = Scene()
     let camera = PerspectiveCamera()

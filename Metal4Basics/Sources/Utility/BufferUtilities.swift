@@ -23,17 +23,10 @@ func alignUp(_ n: Int, _ alignment: Int) -> Int {
 extension MTLDevice {
     var minimumConstantBufferAlignment: Int {
 #if targetEnvironment(simulator)
-        let isSimulator = true
+        return 32
 #else
-        let isSimulator = false
+        return 4
 #endif
-        if supportsFamily(.apple2) && !isSimulator {
-            return 4
-        } else if supportsFamily(.mac2) {
-            return 32
-        } else {
-            return 256
-        }
     }
 }
 
